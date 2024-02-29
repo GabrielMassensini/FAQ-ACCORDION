@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: hsl(275, 100%, 97%);
+}
+
+.bg-pattern {
+  width: 100%;
+  height: 35%;
+  background-image: url(./images/background-pattern-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  width: 90%;
+  padding: 10px;
+  position: absolute;
+  top: 15%;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+}
+
+.header-faq {
+  display: flex;
+  align-items: center;
+}
+.header-faq img {
+  width: 20px;
+}
+.header-faq h1 {
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.accordion-container {
+  margin-top: 15px;
+}
+.accordion-main {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+.accordion-main img {
+  width: 20px;
+  cursor: pointer;
+}
+.accordion-content {
+  display: none;
+  margin-top: 10px;
+  font-size: 11px;
+  font-weight: 500;
+  color: hsl(292, 16%, 49%);
+}
